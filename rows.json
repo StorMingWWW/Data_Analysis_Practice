@@ -1,0 +1,385 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "vn8k-5i8r",
+      "name" : "Jordan CEPPS Evaluation Phone Survey Data 2018",
+      "assetType" : "dataset",
+      "attribution" : "Management Systems International",
+      "averageRating" : 0,
+      "category" : "Democracy, Human Rights and Governance",
+      "createdAt" : 1571658958,
+      "description" : "In 2018-2019, USAID/Jordan's Monitoring and Evaluation Support Project (MESP) conducted a performance evaluation of its Consortium for Elections and Political Processes Strengthening (CEPPS) program. As part of this evaluation, the evaluation team conducted a phone survey of beneficiaries from Ana Usharek, Usharek+ and the Youth Leadership Academy (YLA) program activities. The survey’s objective was to gauge beneficiary perceptions on the effectiveness, relevance, and sustainability of CEPPS and to provide data that can be compared to existing national poll results on issues of political engagement (including voting behavior), civic and democratic knowledge and attitudes, and perceptions of agency. This data asset is the data resulting from the phone survey.",
+      "displayType" : "table",
+      "domainCName" : "data.usaid.gov",
+      "downloadCount" : 11,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "licenseId" : "CC_40_BY_ND",
+      "locked" : false,
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 33609461,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1583424003,
+      "publicationGroup" : 16650135,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1583424002,
+      "rowsUpdatedBy" : "j8cp-xiiz",
+      "tableId" : 16925607,
+      "totalTimesRated" : 0,
+      "viewCount" : 15,
+      "viewLastModified" : 1719283598,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1583424236,
+        "reviewedAutomatically" : false,
+        "state" : "approved",
+        "submissionId" : 1936560,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1583424020,
+        "targetAudience" : "public",
+        "workflowId" : 5335,
+        "reviewer" : {
+          "id" : "j8cp-xiiz",
+          "displayName" : "Lena Knezevic"
+        },
+        "submissionDetails" : {
+          "permissionType" : "read"
+        },
+        "submissionOutcomeApplication" : {
+          "endedAt" : 1583424236,
+          "failureCount" : 0,
+          "startedAt" : 1583424236,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "j8cp-xiiz",
+          "displayName" : "Lena Knezevic"
+        }
+      }, {
+        "message" : "The `strict_permissions` and `enable_internal_approvals` flags must be on to enable internal approvals.",
+        "state" : "unsubmittable",
+        "targetAudience" : "internal",
+        "workflowId" : 5336
+      } ],
+      "clientContext" : {
+        "clientContextVariables" : [ ],
+        "inheritedVariables" : { }
+      },
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 454330029,
+        "name" : "SubmissionDate",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "submissiondate",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 95574402,
+        "cachedContents" : {
+          "non_null" : "12",
+          "largest" : "YLA",
+          "null" : "0",
+          "top" : [ {
+            "item" : "PWD",
+            "count" : "1"
+          }, {
+            "item" : "Citizen Committees",
+            "count" : "1"
+          }, {
+            "item" : "Political parties",
+            "count" : "1"
+          }, {
+            "item" : "CEPPS staff (IRI, IFES, NDI)",
+            "count" : "1"
+          }, {
+            "item" : "Usharek Programs",
+            "count" : "1"
+          }, {
+            "item" : "International organizations",
+            "count" : "1"
+          }, {
+            "item" : "Local partners, institutions, and experts",
+            "count" : "1"
+          }, {
+            "item" : "USAID",
+            "count" : "1"
+          }, {
+            "item" : "Government officials",
+            "count" : "1"
+          }, {
+            "item" : "Empower",
+            "count" : "1"
+          }, {
+            "item" : "YLA",
+            "count" : "1"
+          }, {
+            "item" : "Members of Parliament and candidates",
+            "count" : "1"
+          } ],
+          "smallest" : "CEPPS staff (IRI, IFES, NDI)",
+          "count" : "12",
+          "cardinality" : "12"
+        },
+        "format" : { }
+      }, {
+        "id" : 454330027,
+        "name" : "starttime",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "starttime",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 95574400,
+        "cachedContents" : {
+          "non_null" : "12",
+          "largest" : "28",
+          "null" : "0",
+          "top" : [ {
+            "item" : "2",
+            "count" : "3"
+          }, {
+            "item" : "1",
+            "count" : "2"
+          }, {
+            "item" : "7",
+            "count" : "2"
+          }, {
+            "item" : "4",
+            "count" : "1"
+          }, {
+            "item" : "6",
+            "count" : "1"
+          }, {
+            "item" : "25",
+            "count" : "1"
+          }, {
+            "item" : "28",
+            "count" : "1"
+          }, {
+            "item" : "17",
+            "count" : "1"
+          } ],
+          "smallest" : "1",
+          "count" : "12",
+          "cardinality" : "8"
+        },
+        "format" : { }
+      }, {
+        "id" : 454330028,
+        "name" : "endtime",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "endtime",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 95574401,
+        "cachedContents" : {
+          "non_null" : "5",
+          "largest" : "23",
+          "null" : "7",
+          "top" : [ {
+            "item" : "13",
+            "count" : "2"
+          }, {
+            "item" : "9",
+            "count" : "1"
+          }, {
+            "item" : "3",
+            "count" : "1"
+          }, {
+            "item" : "23",
+            "count" : "1"
+          } ],
+          "smallest" : "3",
+          "count" : "12",
+          "cardinality" : "4"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Creative Commons Attribution | NoDerivatives 4.0 International License",
+        "logoUrl" : "images/licenses/cc40bynd.png",
+        "termsLink" : "http://creativecommons.org/licenses/by-nd/4.0/legalcode"
+      },
+      "metadata" : {
+        "rdfClass" : "",
+        "rdfSubject" : "0",
+        "isParent" : false,
+        "custom_fields" : {
+          "Award Information" : {
+            "Award Completion Date" : "2019-10-31",
+            "Award Number" : "AID-278-C-13-00009"
+          },
+          "Registration Profile" : {
+            "USAID Alternate Contact Email" : "akarmandarian@usaid.gov",
+            "COR/AOR Name" : "Kenana Amin",
+            "Operating Unit of Origin" : "USAID Jordan",
+            "COR/AOR Email" : "kamin@usaid.gov",
+            "Submitter Work Email" : "jim.fremming@msi-inc.com",
+            "Alternate Submitter Name" : "Betsy Bury",
+            "Submitter Name" : "James Fremming",
+            "Alternate Submitter Email" : "bbury@msi-inc.com",
+            "Submitting Organization DUNS Number" : "048407589",
+            "USAID Alternate Contact Name" : "Anna Karmandarian"
+          },
+          "Embargo" : {
+            "Embargo Requested?" : "No"
+          },
+          "Metadata Management" : {
+            "Meta Other Reference Materials" : ""
+          },
+          "Common Core" : {
+            "References Titles" : "CEPPS_PHONE_SURVEY_INFORMED_CONSENT_LANGUAGE.docx",
+            "Described By" : "https://data.usaid.gov/api/views/ccua-qgy5/files/a13c5957-5dd0-460c-8093-0496fc29f927",
+            "References" : "https://data.usaid.gov/api/views/ccua-qgy5/files/27dedfdc-3db5-436e-a639-373b39f3ef70",
+            "Program Code" : [ "184:010" ],
+            "Described By Title" : "CEPPS_Phone_Survey_Code_Book_2018",
+            "Bureau Code" : "184:15"
+          },
+          "Data Detail" : {
+            "Last Modified" : "2018-11-13",
+            "Language" : [ "en" ],
+            "Countries" : "Jordan",
+            "How to Cite this Data" : "USAID Jordan. 2020. Jordan CEPPS Evaluation Phone Survey Data 2018. Dataset. USAID Development Data Library. https://data.usaid.gov/d/vn8k-5i8r.",
+            "Data Quality Notes" : "The survey was designed to gather data from a focused sample of individuals who had participated in any one of three participation strengthening programs.  While the sampling procedure was clear and strong, bias in responses are still possible. Respondents who chose to be interviewed or surveyed might have differed from those who did not, in terms of their attitudes and perceptions or other areas. The telephone survey may have featured additional biases related to differences in trunk line or mobile phone access among different groups.",
+            "Program Cycle Component" : [ "Evaluation" ],
+            "Sustainable Development Goal" : [ "16 - Peace, Justice and Strong Institutions" ]
+          },
+          "Data Overview" : {
+            "Individual Data Asset Author" : "USAID Jordan",
+            "Publisher" : "USAID"
+          },
+          "Risk Utility Assessment" : {
+            "Deidentification Methods" : "",
+            "Proposed Access Level" : "Public",
+            "Level of Effort Comment" : "The data set was scrubbed to ensure removal of any personal identifying information, including names and phone numbers.",
+            "Value of Data" : "The survey provides data from 452 respondents who confirmed by phone that they had participated in USAID Ana Usharek, Ana Usharek+ or Youth Leadership program.  Detailed survey findings are available at the Data Asset Home Page document, pp. 155-167. Survey modules covered respondent background, training exposure, general outlook, engagement and agency, attitudes and perceptions, and demographics."
+          },
+          "Certification" : {
+            "Is Certified" : "Yes"
+          },
+          "Human Subjects Information" : {
+            "Informed consent obtained?" : "Yes",
+            "Is this Federally funded research?" : "No",
+            "Gender Disaggregation" : "No",
+            "Does this dataset contain information on human subjects?" : "Yes"
+          }
+        },
+        "collectionParent" : "ccua-qgy5",
+        "rowLabel" : "Respondent type",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "owner" : {
+        "id" : "fkrw-mkyp",
+        "displayName" : "Lena Knezevic",
+        "screenName" : "Lena Knezevic",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "fkrw-mkyp",
+        "displayName" : "Lena Knezevic",
+        "screenName" : "Lena Knezevic",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "tags" : [ "democracy", "human rights", "governance", "cepps", "youth", "jordan" ],
+      "flags" : [ "default", "federated", "internalToPublicFederatedView", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-2zfp~amq3~e7t6", "00000000-0000-0000-C6FD-D433C7C1B973", 0, 1583424002, null, 1583424002, null, "{ }", "Usharek Programs", "2", "13" ]
+, [ "row-ztsn.ks7z.nmxd", "00000000-0000-0000-5586-CAA76C75EE01", 0, 1583424002, null, 1583424002, null, "{ }", "Empower", "2", "13" ]
+, [ "row-wzhu.aays~epj9", "00000000-0000-0000-6009-DBC6C54771C8", 0, 1583424002, null, 1583424002, null, "{ }", "Citizen Committees", "2", "23" ]
+, [ "row-4fvr.6c2m-v7np", "00000000-0000-0000-9F9A-E683061FE5DE", 0, 1583424002, null, 1583424002, null, "{ }", "PWD", "1", "9" ]
+, [ "row-mfgq.49re-3vcm", "00000000-0000-0000-A714-C0ABF791E351", 0, 1583424002, null, 1583424002, null, "{ }", "YLA", "1", "3" ]
+, [ "row-zpw8-rfx5.t6ks", "00000000-0000-0000-200F-798E035712B9", 0, 1583424002, null, 1583424002, null, "{ }", "USAID", "6", null ]
+, [ "row-idep_y228~hwx7", "00000000-0000-0000-DBA1-ED1D6489BCAF", 0, 1583424002, null, 1583424002, null, "{ }", "CEPPS staff (IRI, IFES, NDI)", "28", null ]
+, [ "row-4g3h.umeb~6sid", "00000000-0000-0000-E472-8127A2B8A3AF", 0, 1583424002, null, 1583424002, null, "{ }", "Local partners, institutions, and experts", "25", null ]
+, [ "row-ws3t~m8qp_5cuj", "00000000-0000-0000-7268-0B64AF944550", 0, 1583424002, null, 1583424002, null, "{ }", "Government officials", "7", null ]
+, [ "row-f593-fm3h~7u3h", "00000000-0000-0000-1F43-EF862FC5BEAE", 0, 1583424002, null, 1583424002, null, "{ }", "Members of Parliament and candidates", "17", null ]
+, [ "row-6dus~cmy5-7pvs", "00000000-0000-0000-B697-2E365D1FDDA6", 0, 1583424002, null, 1583424002, null, "{ }", "Political parties", "7", null ]
+, [ "row-xp25-ewci.ph6i", "00000000-0000-0000-101A-AE884CBC3C04", 0, 1583424002, null, 1583424002, null, "{ }", "International organizations", "4", null ]
+ ]
+}
